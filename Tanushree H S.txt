@@ -1,0 +1,144 @@
+1)Java is a high level ,objected-oriented programming language. It is platform independent because java compiles bytecode which is then executed by JVM.JVM is supported by multiple operating systems hence making it platform independent.
+
+2)JDK architecture contains the following tools:
+JDK : used for compilation(javac),or debugging.
+JRE : provides runtime environment
+JVM : executes bytecode ,helps in storage, security and makes java platform independent.
+
+3)JVM(java virtual machine) is a virtual machine that executes java bytecode. It converts bytecode into machine code and helps in executing java code. It plays a crucial role in making java a platform independent language as it is supported in multiple OS.
+
+4)Here are the steps of "Write Once ,Run Anywhere":
+Write the code and save the code using the extension (.java)
+Compile the code using a tool(javac filename.java)
+Execute the code using (java filename)
+
+5)Bytecode is the intermediate code in java generated just after compilation . It is then converted into machine code by JVM.
+
+6)Datatypes in java are used to define the type of data that we are storing.There are mainly 2 types of datatypes:
+
+          1.Primitive datatypes :short,byte,int,float,long,double,char,boolean(These are used to store values).
+              Example:   byte noOfChairs=10;
+                         short noOfStudents=20;
+                         int noOfClassrooms=50;
+                         long phoneNumber=1234567890L;
+                         double salary=10000.0;
+                         float fee=1200.0;
+                         char section="C";
+                         boolean isGraduated=true/false
+
+
+          2.Non-Primitive datatypes : String,Arrays,Class and can be infite.(These are used to store references).
+               Example: String name = "tanu";
+                        int[] students={"A","B","C"};
+
+
+7)Default values in java refers to the inbuilt values defined for each data type present in constant pools.
+ 
+Program:
+ 
+ class DefaultValues{
+      public static void main(String[] args){
+          byte noOfChairs;
+          short noOfStudents;
+          int age;
+          long phoneNumber;
+          double salary;
+          float fee;
+          char section;
+          boolean isGraduated; 
+          String name;
+          System.out.println("name" + name);
+          System.out.println("age" + age);
+If we print their values without intializing/ assigninig  any values, default values get printed. For primitive data types the value is 0 and for non primitive data types the default value is null.
+
+8)Variables in java are the syntax used to store data/values.It is generally not storing but a variable of particular type pointing to a memory location/address where the value is stored(constant pool).
+Local Variable: Variables that are declared within the class and methods are known as local variables.
+         Example:
+                 class LocalVaribaleExample{
+                          String name="Tanushree";
+                          int age=21;
+                          static void run(){
+                              System.out.println("name"+name);
+                              System.out.println("age"+age);
+                      }
+               }       
+                                                   
+Static Varibale: Variables that are declared at a class level.
+
+                Example: class StaticVariableExample{
+
+                          public static void main(String[] args)
+                          Static String name="Tanushree";
+                          Static int age=21;
+     
+                          System.out.println("name"+name);
+                          System.out.println("age"+age);
+}
+
+                       
+                     
+
+
+
+9)Static method is a type of method that can be called by other class using the syntax: classname.methodname();.This type of method allow us to call the methods without having to create instances.
+    Example:
+           class Shoe{
+               static void run(String brand ,int price){
+                     System.out.println("Brand"+brand);
+                     System.out.println("Price"+price);
+	}
+    }
+
+          class  ShoeRunner{
+                public static void main(String[] args){
+                       Shoe.run("puma",5000);                   
+          }
+     }
+
+
+10)class Shopkeeper {
+    public static void main(String[] args) {
+       int[] sales = {100, 200, 150, 300, 250, 400, 350};
+
+        int total = 0;
+        int max = sales[0];
+        int day = 1;
+        for(int i = 0; i < sales.length; i++) {
+            total += sales[i];
+
+            if(sales[i] > max) {
+                max = sales[i];
+                day = i + 1;
+            }
+        }
+
+        System.out.println("Total Sales: " + total);
+        System.out.println("Highest Sale: " + max);
+        System.out.println("Day: " + day);
+    }
+}
+                  
+                
+           
+
+
+
+
+
+           
+         
+        
+       
+
+    
+ 
+
+                                                   
+
+
+  
+          
+          
+          
+          
+          

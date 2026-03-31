@@ -1,0 +1,63 @@
+class EngineRunner {
+    public static void main(String[] args) {
+
+        Engine engine1 = new Engine();
+        Engine engine2 = new Engine();
+		System.out.println(engine1);
+		System.out.println(engine2);
+        System.out.println("\nEngine 1 Details:\n");
+        System.out.println("Type: " + engine1.type);
+        System.out.println("Fuel Type: " + engine1.fuelType);
+        System.out.println("Horsepower: " + engine1.horsepower);
+        System.out.println("Cylinders: " + engine1.cylinders);
+        System.out.println("Displacement: " + engine1.displacement);
+        System.out.println("Torque: " + engine1.torque);
+        System.out.println("Cooling Type: " + engine1.coolingType);
+        System.out.println("Ignition Type: " + engine1.ignitionType);
+        System.out.println("Brand: " + engine1.brand);
+        System.out.println("Model: " + engine1.model);
+        System.out.println("Year: " + engine1.manufacturingYear);
+        System.out.println("Country: " + engine1.countryOfOrigin);
+        System.out.println("Weight: " + engine1.weight);
+        System.out.println("Material: " + engine1.material);
+        System.out.println("Turbocharged: " + engine1.isTurbocharged);
+        System.out.println("Electric: " + engine1.isElectric);
+        System.out.println("Emission: " + engine1.emissionStandard);
+        System.out.println("Usage: " + engine1.usage);
+        System.out.println("Warranty: " + engine1.warrantyPeriod);
+        System.out.println("Color: " + engine1.color);
+        System.out.println("Serial No: " + engine1.serialNumber);
+        System.out.println("Efficiency: " + engine1.efficiency);
+        System.out.println("Lubrication: " + engine1.lubricationType);
+        System.out.println("Starting System: " + engine1.startingSystem);
+        System.out.println("Packaging: " + engine1.packaging);
+        System.out.println("Condition: " + engine1.condition);
+        System.out.println("\nEngine 2 Details:\n");
+        System.out.println("Type: " + engine2.type);
+        System.out.println("Fuel Type: " + engine2.fuelType);
+        System.out.println("Horsepower: " + engine2.horsepower);
+        System.out.println("Cylinders: " + engine2.cylinders);
+        System.out.println("Displacement: " + engine2.displacement);
+        System.out.println("Torque: " + engine2.torque);
+        System.out.println("Cooling Type: " + engine2.coolingType);
+        System.out.println("Ignition Type: " + engine2.ignitionType);
+        System.out.println("Brand: " + engine2.brand);
+        System.out.println("Model: " + engine2.model);
+        System.out.println("Year: " + engine2.manufacturingYear);
+        System.out.println("Country: " + engine2.countryOfOrigin);
+        System.out.println("Weight: " + engine2.weight);
+        System.out.println("Material: " + engine2.material);
+        System.out.println("Turbocharged: " + engine2.isTurbocharged);
+        System.out.println("Electric: " + engine2.isElectric);
+        System.out.println("Emission: " + engine2.emissionStandard);
+        System.out.println("Usage: " + engine2.usage);
+        System.out.println("Warranty: " + engine2.warrantyPeriod);
+        System.out.println("Color: " + engine2.color);
+        System.out.println("Serial No: " + engine2.serialNumber);
+        System.out.println("Efficiency: " + engine2.efficiency);
+        System.out.println("Lubrication: " + engine2.lubricationType);
+        System.out.println("Starting System: " + engine2.startingSystem);
+        System.out.println("Packaging: " + engine2.packaging);
+        System.out.println("Condition: " + engine2.condition);
+    }
+}

@@ -1,0 +1,63 @@
+class ShampooRunner {
+    public static void main(String[] args) {
+
+        Shampoo shampoo1 = new Shampoo();
+        Shampoo shampoo2 = new Shampoo();
+		System.out.println(shampoo1);
+	    System.out.println(shampoo2);
+        System.out.println("\nShampoo 1 Details:\n");
+        System.out.println("Brand: " + shampoo1.brand);
+        System.out.println("Name: " + shampoo1.name);
+        System.out.println("Price: " + shampoo1.price);
+        System.out.println("Quantity: " + shampoo1.quantity + " ml");
+        System.out.println("Hair Type: " + shampoo1.hairType);
+        System.out.println("Fragrance: " + shampoo1.fragrance);
+        System.out.println("Color: " + shampoo1.color);
+        System.out.println("Consistency: " + shampoo1.consistency);
+        System.out.println("Ingredients: " + shampoo1.ingredients);
+        System.out.println("Is Herbal: " + shampoo1.isHerbal);
+        System.out.println("Sulphate Free: " + shampoo1.isSulphateFree);
+        System.out.println("Paraben Free: " + shampoo1.isParabenFree);
+        System.out.println("Usage: " + shampoo1.usage);
+        System.out.println("Gender: " + shampoo1.gender);
+        System.out.println("Packaging Type: " + shampoo1.packagingType);
+        System.out.println("Bottle Type: " + shampoo1.bottleType);
+        System.out.println("Country: " + shampoo1.countryOfOrigin);
+        System.out.println("Expiry Period: " + shampoo1.expiryPeriod + " months");
+        System.out.println("Manufacturer: " + shampoo1.manufacturer);
+        System.out.println("Benefits: " + shampoo1.benefits);
+        System.out.println("Texture: " + shampoo1.texture);
+        System.out.println("Size: " + shampoo1.size);
+        System.out.println("Travel Friendly: " + shampoo1.isTravelFriendly);
+        System.out.println("Availability: " + shampoo1.availability);
+        System.out.println("Condition: " + shampoo1.condition);
+        System.out.println("Certification: " + shampoo1.certification);
+        System.out.println("\nShampoo 2 Details:\n");
+        System.out.println("Brand: " + shampoo2.brand);
+        System.out.println("Name: " + shampoo2.name);
+        System.out.println("Price: " + shampoo2.price);
+        System.out.println("Quantity: " + shampoo2.quantity + " ml");
+        System.out.println("Hair Type: " + shampoo2.hairType);
+        System.out.println("Fragrance: " + shampoo2.fragrance);
+        System.out.println("Color: " + shampoo2.color);
+        System.out.println("Consistency: " + shampoo2.consistency);
+        System.out.println("Ingredients: " + shampoo2.ingredients);
+        System.out.println("Is Herbal: " + shampoo2.isHerbal);
+        System.out.println("Sulphate Free: " + shampoo2.isSulphateFree);
+        System.out.println("Paraben Free: " + shampoo2.isParabenFree);
+        System.out.println("Usage: " + shampoo2.usage);
+        System.out.println("Gender: " + shampoo2.gender);
+        System.out.println("Packaging Type: " + shampoo2.packagingType);
+        System.out.println("Bottle Type: " + shampoo2.bottleType);
+        System.out.println("Country: " + shampoo2.countryOfOrigin);
+        System.out.println("Expiry Period: " + shampoo2.expiryPeriod + " months");
+        System.out.println("Manufacturer: " + shampoo2.manufacturer);
+        System.out.println("Benefits: " + shampoo2.benefits);
+        System.out.println("Texture: " + shampoo2.texture);
+        System.out.println("Size: " + shampoo2.size);
+        System.out.println("Travel Friendly: " + shampoo2.isTravelFriendly);
+        System.out.println("Availability: " + shampoo2.availability);
+        System.out.println("Condition: " + shampoo2.condition);
+        System.out.println("Certification: " + shampoo2.certification);
+    }
+}

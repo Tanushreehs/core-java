@@ -1,0 +1,63 @@
+class ClockRunner {
+    public static void main(String[] args) {
+
+        Clock clock1 = new Clock();
+        Clock clock2 = new Clock();
+		System.out.println(clock1);
+		System.out.println(clock2);
+        System.out.println("\nClock 1 Details:\n");
+        System.out.println("Brand: " + clock1.brand);
+        System.out.println("Color: " + clock1.color);
+        System.out.println("Price: " + clock1.price);
+        System.out.println("Type: " + clock1.type);
+        System.out.println("Shape: " + clock1.shape);
+        System.out.println("Material: " + clock1.material);
+        System.out.println("Is Digital: " + clock1.isDigital);
+        System.out.println("Is Analog: " + clock1.isAnalog);
+        System.out.println("Display Type: " + clock1.displayType);
+        System.out.println("Power Source: " + clock1.powerSource);
+        System.out.println("Has Alarm: " + clock1.hasAlarm);
+        System.out.println("Has Light: " + clock1.hasLight);
+        System.out.println("Size: " + clock1.size);
+        System.out.println("Weight: " + clock1.weight);
+        System.out.println("Design: " + clock1.design);
+        System.out.println("Country: " + clock1.countryOfOrigin);
+        System.out.println("Warranty: " + clock1.warrantyPeriod);
+        System.out.println("Style: " + clock1.style);
+        System.out.println("Mounting Type: " + clock1.mountingType);
+        System.out.println("Water Resistant: " + clock1.isWaterResistant);
+        System.out.println("Usage: " + clock1.usage);
+        System.out.println("Manufacturer: " + clock1.manufacturer);
+        System.out.println("Battery Type: " + clock1.batteryType);
+        System.out.println("Is Smart: " + clock1.isSmart);
+        System.out.println("Connectivity: " + clock1.connectivity);
+        System.out.println("Packaging: " + clock1.packaging);
+        System.out.println("\nClock 2 Details:\n");
+        System.out.println("Brand: " + clock2.brand);
+        System.out.println("Color: " + clock2.color);
+        System.out.println("Price: " + clock2.price);
+        System.out.println("Type: " + clock2.type);
+        System.out.println("Shape: " + clock2.shape);
+        System.out.println("Material: " + clock2.material);
+        System.out.println("Is Digital: " + clock2.isDigital);
+        System.out.println("Is Analog: " + clock2.isAnalog);
+        System.out.println("Display Type: " + clock2.displayType);
+        System.out.println("Power Source: " + clock2.powerSource);
+        System.out.println("Has Alarm: " + clock2.hasAlarm);
+        System.out.println("Has Light: " + clock2.hasLight);
+        System.out.println("Size: " + clock2.size);
+        System.out.println("Weight: " + clock2.weight);
+        System.out.println("Design: " + clock2.design);
+        System.out.println("Country: " + clock2.countryOfOrigin);
+        System.out.println("Warranty: " + clock2.warrantyPeriod);
+        System.out.println("Style: " + clock2.style);
+        System.out.println("Mounting Type: " + clock2.mountingType);
+        System.out.println("Water Resistant: " + clock2.isWaterResistant);
+        System.out.println("Usage: " + clock2.usage);
+        System.out.println("Manufacturer: " + clock2.manufacturer);
+        System.out.println("Battery Type: " + clock2.batteryType);
+        System.out.println("Is Smart: " + clock2.isSmart);
+        System.out.println("Connectivity: " + clock2.connectivity);
+        System.out.println("Packaging: " + clock2.packaging);
+    }
+}

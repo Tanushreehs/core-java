@@ -1,0 +1,63 @@
+class MonitorRunner {
+    public static void main(String[] args) {
+
+        Monitor monitor1 = new Monitor();
+        Monitor monitor2 = new Monitor();
+        System.out.println(monitor1);
+		System.out.println(monitor2);
+        System.out.println("\nMonitor 1 Details:\n");
+        System.out.println("Brand: " + monitor1.brand);
+        System.out.println("Model: " + monitor1.model);
+        System.out.println("Price: " + monitor1.price);
+        System.out.println("Screen Size: " + monitor1.screenSize);
+        System.out.println("Resolution: " + monitor1.resolution);
+        System.out.println("Panel Type: " + monitor1.panelType);
+        System.out.println("Refresh Rate: " + monitor1.refreshRate);
+        System.out.println("Response Time: " + monitor1.responseTime);
+        System.out.println("Aspect Ratio: " + monitor1.aspectRatio);
+        System.out.println("Color: " + monitor1.color);
+        System.out.println("Is Curved: " + monitor1.isCurved);
+        System.out.println("Is Touch Screen: " + monitor1.isTouchScreen);
+        System.out.println("Connectivity: " + monitor1.connectivity);
+        System.out.println("Usage: " + monitor1.usage);
+        System.out.println("Mounting Type: " + monitor1.mountingType);
+        System.out.println("Has Speakers: " + monitor1.hasSpeakers);
+        System.out.println("Power Consumption: " + monitor1.powerConsumption);
+        System.out.println("Warranty: " + monitor1.warranty);
+        System.out.println("Country: " + monitor1.countryOfOrigin);
+        System.out.println("Weight: " + monitor1.weight);
+        System.out.println("Dimensions: " + monitor1.dimensions);
+        System.out.println("Finish: " + monitor1.finish);
+        System.out.println("Display Tech: " + monitor1.displayTechnology);
+        System.out.println("Is Portable: " + monitor1.isPortable);
+        System.out.println("Packaging: " + monitor1.packaging);
+        System.out.println("Condition: " + monitor1.condition);
+        System.out.println("\nMonitor 2 Details:\n");
+        System.out.println("Brand: " + monitor2.brand);
+        System.out.println("Model: " + monitor2.model);
+        System.out.println("Price: " + monitor2.price);
+        System.out.println("Screen Size: " + monitor2.screenSize);
+        System.out.println("Resolution: " + monitor2.resolution);
+        System.out.println("Panel Type: " + monitor2.panelType);
+        System.out.println("Refresh Rate: " + monitor2.refreshRate);
+        System.out.println("Response Time: " + monitor2.responseTime);
+        System.out.println("Aspect Ratio: " + monitor2.aspectRatio);
+        System.out.println("Color: " + monitor2.color);
+        System.out.println("Is Curved: " + monitor2.isCurved);
+        System.out.println("Is Touch Screen: " + monitor2.isTouchScreen);
+        System.out.println("Connectivity: " + monitor2.connectivity);
+        System.out.println("Usage: " + monitor2.usage);
+        System.out.println("Mounting Type: " + monitor2.mountingType);
+        System.out.println("Has Speakers: " + monitor2.hasSpeakers);
+        System.out.println("Power Consumption: " + monitor2.powerConsumption);
+        System.out.println("Warranty: " + monitor2.warranty);
+        System.out.println("Country: " + monitor2.countryOfOrigin);
+        System.out.println("Weight: " + monitor2.weight);
+        System.out.println("Dimensions: " + monitor2.dimensions);
+        System.out.println("Finish: " + monitor2.finish);
+        System.out.println("Display Tech: " + monitor2.displayTechnology);
+        System.out.println("Is Portable: " + monitor2.isPortable);
+        System.out.println("Packaging: " + monitor2.packaging);
+        System.out.println("Condition: " + monitor2.condition);
+    }
+}

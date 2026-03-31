@@ -1,0 +1,63 @@
+class ArduinoRunner {
+    public static void main(String[] args) {
+
+        Arduino arduino1 = new Arduino();
+        Arduino arduino2 = new Arduino();
+        System.out.println(arduino1);
+		System.out.println(arduino2);
+		System.out.println("\nArduino 1 Details:\n");
+        System.out.println("Board Name: " + arduino1.boardName);
+        System.out.println("Microcontroller: " + arduino1.microcontroller);
+        System.out.println("Operating Voltage: " + arduino1.operatingVoltage);
+        System.out.println("Input Voltage: " + arduino1.inputVoltage);
+        System.out.println("Digital Pins: " + arduino1.digitalPins);
+        System.out.println("Analog Pins: " + arduino1.analogPins);
+        System.out.println("PWM Pins: " + arduino1.pwmPins);
+        System.out.println("Flash Memory: " + arduino1.flashMemory + " KB");
+        System.out.println("SRAM: " + arduino1.sram + " KB");
+        System.out.println("EEPROM: " + arduino1.eeprom + " KB");
+        System.out.println("Clock Speed: " + arduino1.clockSpeed + " MHz");
+        System.out.println("USB Type: " + arduino1.usbType);
+        System.out.println("Connectivity: " + arduino1.connectivity);
+        System.out.println("WiFi Enabled: " + arduino1.isWifiEnabled);
+        System.out.println("Bluetooth Enabled: " + arduino1.isBluetoothEnabled);
+        System.out.println("Power Source: " + arduino1.powerSource);
+        System.out.println("Programming Language: " + arduino1.programmingLanguage);
+        System.out.println("IDE: " + arduino1.ide);
+        System.out.println("Manufacturer: " + arduino1.manufacturer);
+        System.out.println("Country: " + arduino1.countryOfOrigin);
+        System.out.println("Price: " + arduino1.price);
+        System.out.println("Dimensions: " + arduino1.dimensions);
+        System.out.println("Weight: " + arduino1.weight);
+        System.out.println("Usage: " + arduino1.usage);
+        System.out.println("Packaging: " + arduino1.packaging);
+        System.out.println("Condition: " + arduino1.condition);
+        System.out.println("\nArduino 2 Details:\n");
+        System.out.println("Board Name: " + arduino2.boardName);
+        System.out.println("Microcontroller: " + arduino2.microcontroller);
+        System.out.println("Operating Voltage: " + arduino2.operatingVoltage);
+        System.out.println("Input Voltage: " + arduino2.inputVoltage);
+        System.out.println("Digital Pins: " + arduino2.digitalPins);
+        System.out.println("Analog Pins: " + arduino2.analogPins);
+        System.out.println("PWM Pins: " + arduino2.pwmPins);
+        System.out.println("Flash Memory: " + arduino2.flashMemory + " KB");
+        System.out.println("SRAM: " + arduino2.sram + " KB");
+        System.out.println("EEPROM: " + arduino2.eeprom + " KB");
+        System.out.println("Clock Speed: " + arduino2.clockSpeed + " MHz");
+        System.out.println("USB Type: " + arduino2.usbType);
+        System.out.println("Connectivity: " + arduino2.connectivity);
+        System.out.println("WiFi Enabled: " + arduino2.isWifiEnabled);
+        System.out.println("Bluetooth Enabled: " + arduino2.isBluetoothEnabled);
+        System.out.println("Power Source: " + arduino2.powerSource);
+        System.out.println("Programming Language: " + arduino2.programmingLanguage);
+        System.out.println("IDE: " + arduino2.ide);
+        System.out.println("Manufacturer: " + arduino2.manufacturer);
+        System.out.println("Country: " + arduino2.countryOfOrigin);
+        System.out.println("Price: " + arduino2.price);
+        System.out.println("Dimensions: " + arduino2.dimensions);
+        System.out.println("Weight: " + arduino2.weight);
+        System.out.println("Usage: " + arduino2.usage);
+        System.out.println("Packaging: " + arduino2.packaging);
+        System.out.println("Condition: " + arduino2.condition);
+    }
+}

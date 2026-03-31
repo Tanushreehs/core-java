@@ -1,0 +1,63 @@
+class BangleRunner {
+    public static void main(String[] args) {
+
+        Bangle bangle1 = new Bangle();
+        Bangle bangle2 = new Bangle();
+		System.out.println(bangle1);
+		System.out.println(bangle2);
+        System.out.println("\nBangle 1 Details:\n");
+        System.out.println("Color: " + bangle1.color);
+        System.out.println("Material: " + bangle1.material);
+        System.out.println("Price: " + bangle1.price);
+        System.out.println("Diameter: " + bangle1.diameter);
+        System.out.println("Weight: " + bangle1.weight);
+        System.out.println("Brand: " + bangle1.brand);
+        System.out.println("Design: " + bangle1.design);
+        System.out.println("Is Handmade: " + bangle1.isHandmade);
+        System.out.println("Shape: " + bangle1.shape);
+        System.out.println("Size: " + bangle1.size);
+        System.out.println("Finish: " + bangle1.finish);
+        System.out.println("Pattern: " + bangle1.pattern);
+        System.out.println("Gender: " + bangle1.gender);
+        System.out.println("Quantity: " + bangle1.quantity);
+        System.out.println("Country: " + bangle1.countryOfOrigin);
+        System.out.println("Type: " + bangle1.type);
+        System.out.println("Closure Type: " + bangle1.closureType);
+        System.out.println("Is Adjustable: " + bangle1.isAdjustable);
+        System.out.println("Occasion: " + bangle1.occasion);
+        System.out.println("Plating: " + bangle1.plating);
+        System.out.println("Stone Type: " + bangle1.stoneType);
+        System.out.println("Is Set: " + bangle1.isSet);
+        System.out.println("Warranty: " + bangle1.warrantyPeriod);
+        System.out.println("Style: " + bangle1.style);
+        System.out.println("Texture: " + bangle1.texture);
+        System.out.println("Packaging: " + bangle1.packaging);
+        System.out.println("\nBangle 2 Details:\n");
+        System.out.println("Color: " + bangle2.color);
+        System.out.println("Material: " + bangle2.material);
+        System.out.println("Price: " + bangle2.price);
+        System.out.println("Diameter: " + bangle2.diameter);
+        System.out.println("Weight: " + bangle2.weight);
+        System.out.println("Brand: " + bangle2.brand);
+        System.out.println("Design: " + bangle2.design);
+        System.out.println("Is Handmade: " + bangle2.isHandmade);
+        System.out.println("Shape: " + bangle2.shape);
+        System.out.println("Size: " + bangle2.size);
+        System.out.println("Finish: " + bangle2.finish);
+        System.out.println("Pattern: " + bangle2.pattern);
+        System.out.println("Gender: " + bangle2.gender);
+        System.out.println("Quantity: " + bangle2.quantity);
+        System.out.println("Country: " + bangle2.countryOfOrigin);
+        System.out.println("Type: " + bangle2.type);
+        System.out.println("Closure Type: " + bangle2.closureType);
+        System.out.println("Is Adjustable: " + bangle2.isAdjustable);
+        System.out.println("Occasion: " + bangle2.occasion);
+        System.out.println("Plating: " + bangle2.plating);
+        System.out.println("Stone Type: " + bangle2.stoneType);
+        System.out.println("Is Set: " + bangle2.isSet);
+        System.out.println("Warranty: " + bangle2.warrantyPeriod);
+        System.out.println("Style: " + bangle2.style);
+        System.out.println("Texture: " + bangle2.texture);
+        System.out.println("Packaging: " + bangle2.packaging);
+    }
+}

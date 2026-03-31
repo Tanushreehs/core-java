@@ -1,0 +1,63 @@
+class StandRunner {
+    public static void main(String[] args) {
+
+        Stand stand1 = new Stand();
+        Stand stand2 = new Stand();
+		System.out.println(stand1);
+		System.out.println(stand2);
+        System.out.println("\nStand 1 Details:\n");
+        System.out.println("Type: " + stand1.type);
+        System.out.println("Material: " + stand1.material);
+        System.out.println("Price: " + stand1.price);
+        System.out.println("Color: " + stand1.color);
+        System.out.println("Height: " + stand1.height);
+        System.out.println("Weight: " + stand1.weight);
+        System.out.println("Brand: " + stand1.brand);
+        System.out.println("Design: " + stand1.design);
+        System.out.println("Adjustable: " + stand1.isAdjustable);
+        System.out.println("Usage: " + stand1.usage);
+        System.out.println("Shape: " + stand1.shape);
+        System.out.println("Size: " + stand1.size);
+        System.out.println("Finish: " + stand1.finish);
+        System.out.println("Load Capacity: " + stand1.loadCapacity);
+        System.out.println("Country: " + stand1.countryOfOrigin);
+        System.out.println("Warranty: " + stand1.warrantyPeriod);
+        System.out.println("Style: " + stand1.style);
+        System.out.println("Mounting Type: " + stand1.mountingType);
+        System.out.println("Portable: " + stand1.isPortable);
+        System.out.println("Manufacturer: " + stand1.manufacturer);
+        System.out.println("Dimensions: " + stand1.dimensions);
+        System.out.println("Texture: " + stand1.texture);
+        System.out.println("Compatibility: " + stand1.compatibility);
+        System.out.println("Packaging: " + stand1.packaging);
+        System.out.println("Condition: " + stand1.condition);
+        System.out.println("Feature: " + stand1.feature);
+        System.out.println("\nStand 2 Details:\n");
+        System.out.println("Type: " + stand2.type);
+        System.out.println("Material: " + stand2.material);
+        System.out.println("Price: " + stand2.price);
+        System.out.println("Color: " + stand2.color);
+        System.out.println("Height: " + stand2.height);
+        System.out.println("Weight: " + stand2.weight);
+        System.out.println("Brand: " + stand2.brand);
+        System.out.println("Design: " + stand2.design);
+        System.out.println("Adjustable: " + stand2.isAdjustable);
+        System.out.println("Usage: " + stand2.usage);
+        System.out.println("Shape: " + stand2.shape);
+        System.out.println("Size: " + stand2.size);
+        System.out.println("Finish: " + stand2.finish);
+        System.out.println("Load Capacity: " + stand2.loadCapacity);
+        System.out.println("Country: " + stand2.countryOfOrigin);
+        System.out.println("Warranty: " + stand2.warrantyPeriod);
+        System.out.println("Style: " + stand2.style);
+        System.out.println("Mounting Type: " + stand2.mountingType);
+        System.out.println("Portable: " + stand2.isPortable);
+        System.out.println("Manufacturer: " + stand2.manufacturer);
+        System.out.println("Dimensions: " + stand2.dimensions);
+        System.out.println("Texture: " + stand2.texture);
+        System.out.println("Compatibility: " + stand2.compatibility);
+        System.out.println("Packaging: " + stand2.packaging);
+        System.out.println("Condition: " + stand2.condition);
+        System.out.println("Feature: " + stand2.feature);
+    }
+}

@@ -1,0 +1,63 @@
+class IronRunner {
+    public static void main(String[] args) {
+
+        Iron iron1 = new Iron();
+        Iron iron2 = new Iron();
+		System.out.println(iron1);
+		System.out.println(iron2);
+	    System.out.println("\nIron 1 Details:\n");
+        System.out.println("Brand: " + iron1.brand);
+        System.out.println("Model: " + iron1.model);
+        System.out.println("Price: " + iron1.price);
+        System.out.println("Type: " + iron1.type);
+        System.out.println("Power: " + iron1.power + " W");
+        System.out.println("Color: " + iron1.color);
+        System.out.println("Soleplate: " + iron1.soleplateMaterial);
+        System.out.println("Steam Function: " + iron1.hasSteamFunction);
+        System.out.println("Spray: " + iron1.hasSpray);
+        System.out.println("Non-Stick: " + iron1.isNonStick);
+        System.out.println("Temperature Control: " + iron1.temperatureControl);
+        System.out.println("Water Tank: " + iron1.waterTankCapacity);
+        System.out.println("Auto Shut-off: " + iron1.hasAutoShutOff);
+        System.out.println("Cord Type: " + iron1.cordType);
+        System.out.println("Weight: " + iron1.weight);
+        System.out.println("Dimensions: " + iron1.dimensions);
+        System.out.println("Usage: " + iron1.usage);
+        System.out.println("Country: " + iron1.countryOfOrigin);
+        System.out.println("Warranty: " + iron1.warrantyPeriod);
+        System.out.println("Manufacturer: " + iron1.manufacturer);
+        System.out.println("Heating Time: " + iron1.heatingTime);
+        System.out.println("Safety: " + iron1.safetyFeatures);
+        System.out.println("Design: " + iron1.design);
+        System.out.println("Portable: " + iron1.isPortable);
+        System.out.println("Packaging: " + iron1.packaging);
+        System.out.println("Condition: " + iron1.condition);
+        System.out.println("\nIron 2 Details:\n");
+        System.out.println("Brand: " + iron2.brand);
+        System.out.println("Model: " + iron2.model);
+        System.out.println("Price: " + iron2.price);
+        System.out.println("Type: " + iron2.type);
+        System.out.println("Power: " + iron2.power + " W");
+        System.out.println("Color: " + iron2.color);
+        System.out.println("Soleplate: " + iron2.soleplateMaterial);
+        System.out.println("Steam Function: " + iron2.hasSteamFunction);
+        System.out.println("Spray: " + iron2.hasSpray);
+        System.out.println("Non-Stick: " + iron2.isNonStick);
+        System.out.println("Temperature Control: " + iron2.temperatureControl);
+        System.out.println("Water Tank: " + iron2.waterTankCapacity);
+        System.out.println("Auto Shut-off: " + iron2.hasAutoShutOff);
+        System.out.println("Cord Type: " + iron2.cordType);
+        System.out.println("Weight: " + iron2.weight);
+        System.out.println("Dimensions: " + iron2.dimensions);
+        System.out.println("Usage: " + iron2.usage);
+        System.out.println("Country: " + iron2.countryOfOrigin);
+        System.out.println("Warranty: " + iron2.warrantyPeriod);
+        System.out.println("Manufacturer: " + iron2.manufacturer);
+        System.out.println("Heating Time: " + iron2.heatingTime);
+        System.out.println("Safety: " + iron2.safetyFeatures);
+        System.out.println("Design: " + iron2.design);
+        System.out.println("Portable: " + iron2.isPortable);
+        System.out.println("Packaging: " + iron2.packaging);
+        System.out.println("Condition: " + iron2.condition);
+    }
+}

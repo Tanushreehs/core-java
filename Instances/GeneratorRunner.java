@@ -1,0 +1,63 @@
+class GeneratorRunner {
+    public static void main(String[] args) {
+
+        Generator generator1 = new Generator();
+        Generator generator2 = new Generator();
+		System.out.println(generator1);
+		System.out.println(generator2);
+	    System.out.println("\nGenerator 1 Details:\n");
+        System.out.println("Brand: " + generator1.brand);
+        System.out.println("Model: " + generator1.model);
+        System.out.println("Price: " + generator1.price);
+        System.out.println("Fuel Type: " + generator1.fuelType);
+        System.out.println("Power Output: " + generator1.powerOutput);
+        System.out.println("Phase: " + generator1.phase);
+        System.out.println("Cooling Type: " + generator1.coolingType);
+        System.out.println("Start Type: " + generator1.startType);
+        System.out.println("Fuel Capacity: " + generator1.fuelCapacity);
+        System.out.println("Runtime: " + generator1.runtime);
+        System.out.println("Noise Level: " + generator1.noiseLevel);
+        System.out.println("Weight: " + generator1.weight);
+        System.out.println("Dimensions: " + generator1.dimensions);
+        System.out.println("Color: " + generator1.color);
+        System.out.println("Material: " + generator1.material);
+        System.out.println("Usage: " + generator1.usage);
+        System.out.println("Country: " + generator1.countryOfOrigin);
+        System.out.println("Warranty: " + generator1.warrantyPeriod);
+        System.out.println("Is Portable: " + generator1.isPortable);
+        System.out.println("Engine Type: " + generator1.engineType);
+        System.out.println("Voltage: " + generator1.voltage);
+        System.out.println("Frequency: " + generator1.frequency);
+        System.out.println("Efficiency: " + generator1.efficiency);
+        System.out.println("Safety Features: " + generator1.safetyFeatures);
+        System.out.println("Packaging: " + generator1.packaging);
+        System.out.println("Condition: " + generator1.condition);
+        System.out.println("\nGenerator 2 Details:\n");
+        System.out.println("Brand: " + generator2.brand);
+        System.out.println("Model: " + generator2.model);
+        System.out.println("Price: " + generator2.price);
+        System.out.println("Fuel Type: " + generator2.fuelType);
+        System.out.println("Power Output: " + generator2.powerOutput);
+        System.out.println("Phase: " + generator2.phase);
+        System.out.println("Cooling Type: " + generator2.coolingType);
+        System.out.println("Start Type: " + generator2.startType);
+        System.out.println("Fuel Capacity: " + generator2.fuelCapacity);
+        System.out.println("Runtime: " + generator2.runtime);
+        System.out.println("Noise Level: " + generator2.noiseLevel);
+        System.out.println("Weight: " + generator2.weight);
+        System.out.println("Dimensions: " + generator2.dimensions);
+        System.out.println("Color: " + generator2.color);
+        System.out.println("Material: " + generator2.material);
+        System.out.println("Usage: " + generator2.usage);
+        System.out.println("Country: " + generator2.countryOfOrigin);
+        System.out.println("Warranty: " + generator2.warrantyPeriod);
+        System.out.println("Is Portable: " + generator2.isPortable);
+        System.out.println("Engine Type: " + generator2.engineType);
+        System.out.println("Voltage: " + generator2.voltage);
+        System.out.println("Frequency: " + generator2.frequency);
+        System.out.println("Efficiency: " + generator2.efficiency);
+        System.out.println("Safety Features: " + generator2.safetyFeatures);
+        System.out.println("Packaging: " + generator2.packaging);
+        System.out.println("Condition: " + generator2.condition);
+    }
+}

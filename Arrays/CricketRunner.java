@@ -1,0 +1,50 @@
+class CricketRunner{
+	public static void main(String[] args){
+        CricketStore cricketStore = new CricketStore();
+        Cricket cricket1 = new Cricket("India","Shubman Gill",11,"Test","Wankhede",100,60,40,5.6,"India");
+		Cricket cricket2 = new Cricket("India","Suryakumar Yadav",11,"T20","Delhi",80,50,30,8.9,"India");
+		Cricket cricket3 = new Cricket("Australia","Mitchell Marsh",11,"T20","MCG",90,55,35,8.7,"Australia");
+		Cricket cricket4 = new Cricket("England","Ben Stokes",11,"Test","Lords",120,70,50,3.5,"England");
+		Cricket cricket5 = new Cricket("England","Harry Brook",11,"T20","Oval",85,48,37,8.8,"England");
+		Cricket cricket6 = new Cricket("Pakistan","Babar Azam",11,"ODI","Karachi",110,65,45,5.4,"Pakistan");
+		Cricket cricket7 = new Cricket("South Africa","Aiden Markram",11,"T20","Cape Town",95,52,43,8.3,"SA");
+		Cricket cricket8 = new Cricket("New Zealand","Kane Williamson",11,"Test","Auckland",130,75,55,3.2,"NZ");
+		Cricket cricket9 = new Cricket("Afghanistan","Rashid Khan",11,"T20","Kabul",70,40,30,8.5,"AFG");
+		Cricket cricket10 = new Cricket("Sri Lanka","Dasun Shanaka",11,"T20","Colombo",88,44,44,8.0,"SL");
+        Cricket cricket11 = new Cricket("Bangladesh","Shakib Al Hasan",11,"ODI","Dhaka",105,55,50,5.1,"BD");
+		Cricket cricket12 = new Cricket("West Indies","Shai Hope",11,"ODI","Barbados",98,45,53,5.0,"WI");
+		Cricket cricket13 = new Cricket("Ireland","Paul Stirling",11,"T20","Dublin",75,35,40,7.8,"Ireland");
+		Cricket cricket14 = new Cricket("Zimbabwe","Craig Ervine",11,"Test","Harare",85,40,45,3.0,"Zimbabwe");
+		Cricket cricket15 = new Cricket("Netherlands","Scott Edwards",11,"ODI","Amsterdam",60,30,30,5.2,"Netherlands");
+		Cricket cricket16 = new Cricket("Nepal","Rohit Paudel",11,"T20","Kathmandu",55,28,27,7.5,"Nepal");
+		Cricket cricket17 = new Cricket("UAE","Muhammad Waseem",11,"T20","Dubai",65,32,33,7.9,"UAE");
+		Cricket cricket18 = new Cricket("Oman","Zeeshan Maqsood",11,"ODI","Muscat",70,34,36,5.3,"Oman");
+		Cricket cricket19 = new Cricket("Scotland","Richie Berrington",11,"T20","Edinburgh",68,33,35,7.7,"Scotland");
+		Cricket cricket20 = new Cricket("Canada","Nicholas Kirton",11,"T20","Toronto",50,25,25,7.4,"Canada");
+        cricketStore.store(cricket1);
+		cricketStore.store(cricket2);
+		cricketStore.store(cricket3);
+		cricketStore.store(cricket4);
+		cricketStore.store(cricket5);
+		cricketStore.store(cricket6);
+		cricketStore.store(cricket7);
+		cricketStore.store(cricket8);
+		cricketStore.store(cricket9);
+		cricketStore.store(cricket10);
+		cricketStore.store(cricket11);
+		cricketStore.store(cricket12);
+		cricketStore.store(cricket13);
+		cricketStore.store(cricket14);
+		cricketStore.store(cricket15);
+		cricketStore.store(cricket16);
+		cricketStore.store(cricket17);
+		cricketStore.store(cricket18);
+		cricketStore.store(cricket19);
+		cricketStore.store(cricket20);
+        cricketStore.display();
+		Cricket newCricket = new Cricket("World XI","MS Dhoni",11,"T20","Dubai",200,150,50,9.5,"World");
+        cricketStore.update(cricket3,newCricket);
+        System.out.println("After Update:");
+		cricketStore.display();
+	}
+}

@@ -1,0 +1,50 @@
+class MovieRunner{
+	public static void main(String[] args){
+        MovieStore movieStore = new MovieStore();
+        Movie movie1 = new Movie("KGF","Kannada","Action",2.5,"Prashanth Neel","Yash","Srinidhi",9.0,"2018",80);
+		Movie movie2 = new Movie("RRR","Telugu","Action",3.0,"Rajamouli","NTR","Alia",9.2,"2022",500);
+		Movie movie3 = new Movie("Pushpa","Telugu","Action",2.8,"Sukumar","Allu Arjun","Rashmika",8.5,"2021",200);
+		Movie movie4 = new Movie("Kantara","Kannada","Drama",2.4,"Rishab Shetty","Rishab","Sapthami",9.3,"2022",50);
+		Movie movie5 = new Movie("Leo","Tamil","Action",2.7,"Lokesh","Vijay","Trisha",8.0,"2023",250);
+		Movie movie6 = new Movie("Jawan","Hindi","Action",2.6,"Atlee","SRK","Nayanthara",8.7,"2023",300);
+		Movie movie7 = new Movie("Pathaan","Hindi","Action",2.5,"Siddharth","SRK","Deepika",8.3,"2023",250);
+		Movie movie8 = new Movie("Bahubali","Telugu","Epic",2.9,"Rajamouli","Prabhas","Anushka",9.5,"2015",180);
+		Movie movie9 = new Movie("Drishyam","Malayalam","Thriller",2.3,"Jeethu","Mohanlal","Meena",9.1,"2013",50);
+		Movie movie10 = new Movie("Master","Tamil","Action",2.6,"Lokesh","Vijay","Malavika",8.2,"2021",135);
+        Movie movie11 = new Movie("Vikram","Tamil","Action",2.7,"Lokesh","Kamal","Fahadh",9.0,"2022",150);
+		Movie movie12 = new Movie("Dangal","Hindi","Drama",2.8,"Nitesh","Aamir","Sakshi",9.3,"2016",70);
+		Movie movie13 = new Movie("3 Idiots","Hindi","Comedy",2.9,"Rajkumar","Aamir","Kareena",9.4,"2009",55);
+		Movie movie14 = new Movie("KGF 2","Kannada","Action",2.6,"Prashanth Neel","Yash","Srinidhi",9.1,"2022",100);
+		Movie movie15 = new Movie("Salaar","Telugu","Action",2.8,"Prashanth Neel","Prabhas","Shruti",8.8,"2023",300);
+		Movie movie16 = new Movie("Animal","Hindi","Drama",2.9,"Sandeep","Ranbir","Rashmika",8.6,"2023",200);
+		Movie movie17 = new Movie("Arjun Reddy","Telugu","Romance",2.5,"Sandeep","Vijay","Shalini",8.4,"2017",40);
+		Movie movie18 = new Movie("KGF","Kannada","Action",2.5,"Prashanth Neel","Yash","Srinidhi",9.0,"2018",80);
+		Movie movie19 = new Movie("Jailer","Tamil","Action",2.7,"Nelson","Rajini","Tamanna",8.5,"2023",200);
+		Movie movie20 = new Movie("RRR","Telugu","Action",3.0,"Rajamouli","Ram Charan","Alia",9.2,"2022",500);
+        movieStore.store(movie1);
+		movieStore.store(movie2);
+		movieStore.store(movie3);
+		movieStore.store(movie4);
+		movieStore.store(movie5);
+		movieStore.store(movie6);
+		movieStore.store(movie7);
+		movieStore.store(movie8);
+		movieStore.store(movie9);
+		movieStore.store(movie10);
+		movieStore.store(movie11);
+		movieStore.store(movie12);
+		movieStore.store(movie13);
+		movieStore.store(movie14);
+		movieStore.store(movie15);
+		movieStore.store(movie16);
+		movieStore.store(movie17);
+		movieStore.store(movie18);
+		movieStore.store(movie19);
+		movieStore.store(movie20);
+        movieStore.display();
+        Movie newMovie = new Movie("Interstellar","English","Sci-Fi",3.0,"Nolan","Matthew","Anne",9.8,"2014",165);
+        movieStore.update(movie9,newMovie);
+        System.out.println("After Update:");
+		movieStore.display();
+	}
+}

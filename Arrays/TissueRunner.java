@@ -1,0 +1,50 @@
+class TissueRunner{
+	public static void main(String[] args){
+        TissueStore tissueStore = new TissueStore();
+        Tissue tissue1 = new Tissue("Origami","Facial",2,"Paper",100,120,"White",true,"Face","India");
+		Tissue tissue2 = new Tissue("Kleenex","Facial",3,"Paper",150,150,"White",true,"Face","USA");
+		Tissue tissue3 = new Tissue("Softy","Toilet",2,"Paper",200,180,"White",false,"Bathroom","India");
+		Tissue tissue4 = new Tissue("Puffs","Facial",3,"Paper",120,160,"White",true,"Face","USA");
+		Tissue tissue5 = new Tissue("Bella","Napkin",1,"Paper",80,100,"White",false,"Dining","India");
+		Tissue tissue6 = new Tissue("Premier","Toilet",2,"Paper",180,170,"White",false,"Bathroom","India");
+		Tissue tissue7 = new Tissue("Velvet","Facial",3,"Paper",140,155,"White",true,"Face","UK");
+		Tissue tissue8 = new Tissue("Aura","Napkin",1,"Paper",90,110,"White",false,"Dining","India");
+		Tissue tissue9 = new Tissue("Soft Touch","Facial",2,"Paper",130,140,"White",true,"Face","India");
+		Tissue tissue10 = new Tissue("CleanX","Toilet",2,"Paper",210,190,"White",false,"Bathroom","USA");
+        Tissue tissue11 = new Tissue("PureSoft","Facial",3,"Paper",160,165,"White",true,"Face","India");
+		Tissue tissue12 = new Tissue("EcoClean","Napkin",1,"Recycled",100,120,"Brown",false,"Dining","India");
+		Tissue tissue13 = new Tissue("FreshFeel","Facial",2,"Paper",140,150,"White",true,"Face","USA");
+		Tissue tissue14 = new Tissue("UltraSoft","Toilet",3,"Paper",220,200,"White",false,"Bathroom","UK");
+		Tissue tissue15 = new Tissue("DailyUse","Napkin",1,"Paper",70,90,"White",false,"Dining","India");
+		Tissue tissue16 = new Tissue("MaxSoft","Facial",3,"Paper",150,170,"White",true,"Face","USA");
+		Tissue tissue17 = new Tissue("CleanPro","Toilet",2,"Paper",190,180,"White",false,"Bathroom","India");
+		Tissue tissue18 = new Tissue("SoftCare","Facial",2,"Paper",135,145,"White",true,"Face","India");
+		Tissue tissue19 = new Tissue("EcoSoft","Napkin",1,"Recycled",85,105,"Brown",false,"Dining","India");
+		Tissue tissue20 = new Tissue("Premium","Facial",3,"Paper",170,175,"White",true,"Face","Germany");
+        tissueStore.store(tissue1);
+		tissueStore.store(tissue2);
+		tissueStore.store(tissue3);
+		tissueStore.store(tissue4);
+		tissueStore.store(tissue5);
+		tissueStore.store(tissue6);
+		tissueStore.store(tissue7);
+		tissueStore.store(tissue8);
+		tissueStore.store(tissue9);
+		tissueStore.store(tissue10);
+		tissueStore.store(tissue11);
+		tissueStore.store(tissue12);
+		tissueStore.store(tissue13);
+		tissueStore.store(tissue14);
+		tissueStore.store(tissue15);
+		tissueStore.store(tissue16);
+		tissueStore.store(tissue17);
+		tissueStore.store(tissue18);
+		tissueStore.store(tissue19);
+		tissueStore.store(tissue20);
+        tissueStore.display();
+        Tissue newTissue = new Tissue("LuxurySoft","Facial",4,"Premium Paper",200,250,"White",true,"Face","France");
+        tissueStore.update(tissue15,newTissue);
+        System.out.println("After Update:");
+		tissueStore.display();
+	}
+}

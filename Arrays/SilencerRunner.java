@@ -1,0 +1,50 @@
+class SilencerRunner{
+	public static void main(String[] args){
+        SilencerStore silencerStore = new SilencerStore();
+        Silencer silencer1 = new Silencer("Bosch","Steel",2.5,"Exhaust",40.0,2500,"Bike",true,"Black",2);
+		Silencer silencer2 = new Silencer("Yamaha","Alloy",2.2,"Performance",38.0,3000,"Bike",true,"Silver",2);
+		Silencer silencer3 = new Silencer("Honda","Steel",2.8,"Standard",42.0,2200,"Car",true,"Black",3);
+		Silencer silencer4 = new Silencer("TVS","Iron",2.4,"Exhaust",39.0,2100,"Bike",false,"Grey",1);
+		Silencer silencer5 = new Silencer("Suzuki","Steel",2.6,"Performance",41.0,2800,"Bike",true,"Black",2);
+		Silencer silencer6 = new Silencer("Hero","Alloy",2.3,"Standard",37.0,2000,"Bike",false,"Silver",1);
+		Silencer silencer7 = new Silencer("KTM","Steel",2.7,"Exhaust",43.0,3200,"Bike",true,"Orange",2);
+		Silencer silencer8 = new Silencer("Bajaj","Iron",2.5,"Standard",40.5,2300,"Bike",false,"Black",1);
+		Silencer silencer9 = new Silencer("Royal Enfield","Steel",3.0,"Classic",45.0,4000,"Bike",true,"Chrome",3);
+		Silencer silencer10 = new Silencer("Mahindra","Steel",3.2,"Heavy",48.0,4500,"Car",true,"Black",3);
+        Silencer silencer11 = new Silencer("Ashok Leyland","Iron",4.0,"Truck",60.0,6000,"Truck",true,"Grey",4);
+		Silencer silencer12 = new Silencer("Tata","Steel",3.5,"Heavy",50.0,5000,"Car",true,"Black",3);
+		Silencer silencer13 = new Silencer("Hyundai","Alloy",2.6,"Standard",42.5,2600,"Car",true,"Silver",2);
+		Silencer silencer14 = new Silencer("Ford","Steel",3.1,"Performance",46.0,3800,"Car",true,"Black",3);
+		Silencer silencer15 = new Silencer("Chevrolet","Iron",3.3,"Standard",47.0,3500,"Car",false,"Grey",2);
+		Silencer silencer16 = new Silencer("Nissan","Alloy",2.9,"Performance",44.0,3700,"Car",true,"Silver",2);
+		Silencer silencer17 = new Silencer("Volkswagen","Steel",3.0,"Standard",45.5,3900,"Car",true,"Black",3);
+		Silencer silencer18 = new Silencer("Skoda","Steel",3.2,"Premium",46.5,4200,"Car",true,"Silver",3);
+		Silencer silencer19 = new Silencer("Jeep","Iron",3.8,"Heavy",52.0,4800,"Car",true,"Black",4);
+		Silencer silencer20 = new Silencer("BMW","Alloy",2.7,"Sport",43.5,5500,"Car",true,"Chrome",4);
+        silencerStore.store(silencer1);
+		silencerStore.store(silencer2);
+		silencerStore.store(silencer3);
+		silencerStore.store(silencer4);
+		silencerStore.store(silencer5);
+		silencerStore.store(silencer6);
+		silencerStore.store(silencer7);
+		silencerStore.store(silencer8);
+		silencerStore.store(silencer9);
+		silencerStore.store(silencer10);
+		silencerStore.store(silencer11);
+		silencerStore.store(silencer12);
+		silencerStore.store(silencer13);
+		silencerStore.store(silencer14);
+		silencerStore.store(silencer15);
+		silencerStore.store(silencer16);
+		silencerStore.store(silencer17);
+		silencerStore.store(silencer18);
+		silencerStore.store(silencer19);
+		silencerStore.store(silencer20);
+        silencerStore.display();
+        Silencer newSilencer = new Silencer("Ducati","Carbon Fiber",2.1,"Sport",39.0,7000,"Bike",true,"Red",3);
+        silencerStore.update(silencer8,newSilencer);
+        System.out.println("After Update:");
+		silencerStore.display();
+	}
+}

@@ -1,0 +1,50 @@
+class BroccoliRunner{
+	public static void main(String[] args){
+        BroccoliStore broccoliStore = new BroccoliStore();
+        Broccoli broccoli1 = new Broccoli("Green",1.2,"Calabrese","Slightly Bitter",true,80,"India",true,15,"A");
+		Broccoli broccoli2 = new Broccoli("Dark Green",1.5,"Sprouting","Mild",false,75,"China",true,18,"B");
+		Broccoli broccoli3 = new Broccoli("Light Green",1.0,"Calabrese","Fresh",true,85,"USA",true,14,"A");
+		Broccoli broccoli4 = new Broccoli("Green",1.8,"Purple","Sweet",false,70,"UK",true,20,"B");
+		Broccoli broccoli5 = new Broccoli("Dark Green",1.3,"Sprouting","Mild",true,90,"Australia",true,16,"A");
+		Broccoli broccoli6 = new Broccoli("Green",1.6,"Calabrese","Fresh",false,78,"India",true,17,"B");
+		Broccoli broccoli7 = new Broccoli("Light Green",1.1,"Purple","Sweet",true,88,"Italy",true,13,"A");
+		Broccoli broccoli8 = new Broccoli("Green",1.7,"Sprouting","Mild",false,72,"Spain",true,19,"B");
+		Broccoli broccoli9 = new Broccoli("Dark Green",1.4,"Calabrese","Fresh",true,86,"France",true,16,"A");
+		Broccoli broccoli10 = new Broccoli("Green",1.9,"Purple","Sweet",false,74,"Germany",true,21,"B");
+        Broccoli broccoli11 = new Broccoli("Light Green",1.2,"Sprouting","Mild",true,82,"India",true,15,"A");
+		Broccoli broccoli12 = new Broccoli("Green",1.5,"Calabrese","Fresh",false,76,"China",true,18,"B");
+		Broccoli broccoli13 = new Broccoli("Dark Green",1.0,"Purple","Sweet",true,89,"USA",true,14,"A");
+		Broccoli broccoli14 = new Broccoli("Green",1.8,"Sprouting","Mild",false,71,"UK",true,20,"B");
+		Broccoli broccoli15 = new Broccoli("Light Green",1.3,"Calabrese","Fresh",true,87,"Australia",true,16,"A");
+		Broccoli broccoli16 = new Broccoli("Green",1.6,"Purple","Sweet",false,79,"India",true,17,"B");
+		Broccoli broccoli17 = new Broccoli("Dark Green",1.1,"Sprouting","Mild",true,83,"Italy",true,13,"A");
+		Broccoli broccoli18 = new Broccoli("Green",1.7,"Calabrese","Fresh",false,73,"Spain",true,19,"B");
+		Broccoli broccoli19 = new Broccoli("Light Green",1.4,"Purple","Sweet",true,84,"France",true,16,"A");
+		Broccoli broccoli20 = new Broccoli("Green",1.9,"Sprouting","Mild",false,77,"Germany",true,21,"B");
+        broccoliStore.store(broccoli1);
+		broccoliStore.store(broccoli2);
+		broccoliStore.store(broccoli3);
+		broccoliStore.store(broccoli4);
+		broccoliStore.store(broccoli5);
+		broccoliStore.store(broccoli6);
+		broccoliStore.store(broccoli7);
+		broccoliStore.store(broccoli8);
+		broccoliStore.store(broccoli9);
+		broccoliStore.store(broccoli10);
+		broccoliStore.store(broccoli11);
+		broccoliStore.store(broccoli12);
+		broccoliStore.store(broccoli13);
+		broccoliStore.store(broccoli14);
+		broccoliStore.store(broccoli15);
+		broccoliStore.store(broccoli16);
+		broccoliStore.store(broccoli17);
+		broccoliStore.store(broccoli18);
+		broccoliStore.store(broccoli19);
+		broccoliStore.store(broccoli20);
+        broccoliStore.display();
+        Broccoli newBroccoli = new Broccoli("Purple",2.0,"Hybrid","Very Sweet",true,100,"India",true,22,"A+");
+        broccoliStore.update(broccoli11,newBroccoli);
+        System.out.println("After Update:");
+		broccoliStore.display();
+	}
+}

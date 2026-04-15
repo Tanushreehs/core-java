@@ -1,0 +1,50 @@
+class GloveRunner{
+	public static void main(String[] args){
+        GloveStore gloveStore = new GloveStore();
+        Glove glove1 = new Glove("Sports","Leather","M","Black","Nike",1200,true,"Cricket","India",0.3);
+		Glove glove2 = new Glove("Winter","Wool","L","Grey","Adidas",800,true,"Cold Protection","USA",0.4);
+		Glove glove3 = new Glove("Medical","Latex","S","White","MedLife",300,false,"Hospital","India",0.1);
+		Glove glove4 = new Glove("Industrial","Rubber","L","Yellow","3M",500,true,"Safety","Germany",0.5);
+		Glove glove5 = new Glove("Sports","Leather","M","Blue","Puma",1100,true,"Football","UK",0.35);
+		Glove glove6 = new Glove("Winter","Wool","XL","Black","Reebok",900,true,"Cold","Canada",0.45);
+		Glove glove7 = new Glove("Medical","Latex","M","White","Apollo",350,false,"Hospital","India",0.12);
+		Glove glove8 = new Glove("Industrial","Rubber","L","Orange","Bosch",600,true,"Construction","Germany",0.55);
+		Glove glove9 = new Glove("Sports","Leather","S","Red","Nike",1300,true,"Boxing","USA",0.33);
+		Glove glove10 = new Glove("Winter","Wool","M","Green","Adidas",850,true,"Cold","Russia",0.42);
+        Glove glove11 = new Glove("Medical","Latex","L","White","MedPlus",320,false,"Hospital","India",0.11);
+		Glove glove12 = new Glove("Industrial","Rubber","XL","Blue","3M",550,true,"Safety","USA",0.52);
+		Glove glove13 = new Glove("Sports","Leather","M","Black","Puma",1150,true,"Cricket","India",0.34);
+		Glove glove14 = new Glove("Winter","Wool","L","Grey","Reebok",870,true,"Cold","UK",0.41);
+		Glove glove15 = new Glove("Medical","Latex","S","White","Apollo",310,false,"Hospital","India",0.1);
+		Glove glove16 = new Glove("Industrial","Rubber","M","Yellow","Bosch",580,true,"Factory","Germany",0.53);
+		Glove glove17 = new Glove("Sports","Leather","L","Blue","Nike",1250,true,"Football","USA",0.36);
+		Glove glove18 = new Glove("Winter","Wool","XL","Black","Adidas",920,true,"Cold","Canada",0.44);
+		Glove glove19 = new Glove("Medical","Latex","M","White","MedLife",330,false,"Hospital","India",0.12);
+		Glove glove20 = new Glove("Industrial","Rubber","L","Orange","3M",610,true,"Construction","Germany",0.54);
+        gloveStore.store(glove1);
+		gloveStore.store(glove2);
+		gloveStore.store(glove3);
+		gloveStore.store(glove4);
+		gloveStore.store(glove5);
+		gloveStore.store(glove6);
+		gloveStore.store(glove7);
+		gloveStore.store(glove8);
+		gloveStore.store(glove9);
+		gloveStore.store(glove10);
+		gloveStore.store(glove11);
+		gloveStore.store(glove12);
+		gloveStore.store(glove13);
+		gloveStore.store(glove14);
+		gloveStore.store(glove15);
+		gloveStore.store(glove16);
+		gloveStore.store(glove17);
+		gloveStore.store(glove18);
+		gloveStore.store(glove19);
+		gloveStore.store(glove20);
+        gloveStore.display();
+        Glove newGlove = new Glove("Sports","Leather","M","Gold","Nike",2000,true,"Premium","USA",0.3);
+        gloveStore.update(glove3,newGlove);
+        System.out.println("After Update:");
+		gloveStore.display();
+	}
+}

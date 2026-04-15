@@ -1,0 +1,50 @@
+class SpaceshipRunner{
+	public static void main(String[] args){
+        SpaceshipStore spaceshipStore = new SpaceshipStore();
+        Spaceship spaceship1 = new Spaceship("Apollo","Crewed",3,25000,"Liquid","Moon Mission","NASA",30000,true,"USA");
+		Spaceship spaceship2 = new Spaceship("Chandrayaan","Uncrewed",0,20000,"Solid","Moon Mission","ISRO",15000,false,"India");
+		Spaceship spaceship3 = new Spaceship("Falcon 9","Cargo",0,27000,"Liquid","Satellite Launch","SpaceX",55000,true,"USA");
+		Spaceship spaceship4 = new Spaceship("Gaganyaan","Crewed",3,22000,"Liquid","Human Spaceflight","ISRO",20000,true,"India");
+		Spaceship spaceship5 = new Spaceship("Soyuz","Crewed",3,24000,"Liquid","ISS Mission","Roscosmos",28000,true,"Russia");
+		Spaceship spaceship6 = new Spaceship("Shenzhou","Crewed",3,23000,"Liquid","Space Station","CNSA",26000,true,"China");
+		Spaceship spaceship7 = new Spaceship("Starship","Cargo",0,30000,"Methane","Mars Mission","SpaceX",100000,true,"USA");
+		Spaceship spaceship8 = new Spaceship("Hubble","Satellite",0,28000,"Solar","Observation","NASA",11000,false,"USA");
+		Spaceship spaceship9 = new Spaceship("JamesWebb","Satellite",0,29000,"Solar","Deep Space","NASA",12000,false,"USA");
+		Spaceship spaceship10 = new Spaceship("Ariane 5","Cargo",0,26000,"Liquid","Satellite Launch","ESA",50000,false,"Europe");
+        Spaceship spaceship11 = new Spaceship("Viking","Probe",0,21000,"Solid","Mars Mission","NASA",18000,false,"USA");
+		Spaceship spaceship12 = new Spaceship("Voyager","Probe",0,17000,"Nuclear","Deep Space","NASA",15000,false,"USA");
+		Spaceship spaceship13 = new Spaceship("New Horizons","Probe",0,16000,"Nuclear","Pluto Mission","NASA",14000,false,"USA");
+		Spaceship spaceship14 = new Spaceship("Dragon","Cargo",0,25000,"Liquid","ISS Supply","SpaceX",35000,true,"USA");
+		Spaceship spaceship15 = new Spaceship("Cygnus","Cargo",0,24000,"Liquid","ISS Supply","Northrop",32000,false,"USA");
+		Spaceship spaceship16 = new Spaceship("Tiangong","Station",3,23000,"Solar","Space Station","CNSA",40000,true,"China");
+		Spaceship spaceship17 = new Spaceship("Skylab","Station",3,22000,"Solar","Space Station","NASA",38000,false,"USA");
+		Spaceship spaceship18 = new Spaceship("Sputnik","Satellite",0,18000,"Battery","First Satellite","USSR",8000,false,"Russia");
+		Spaceship spaceship19 = new Spaceship("Explorer","Satellite",0,19000,"Battery","Research","NASA",9000,false,"USA");
+		Spaceship spaceship20 = new Spaceship("Cartosat","Satellite",0,20000,"Solar","Earth Observation","ISRO",10000,false,"India");
+        spaceshipStore.store(spaceship1);
+		spaceshipStore.store(spaceship2);
+		spaceshipStore.store(spaceship3);
+		spaceshipStore.store(spaceship4);
+		spaceshipStore.store(spaceship5);
+		spaceshipStore.store(spaceship6);
+		spaceshipStore.store(spaceship7);
+		spaceshipStore.store(spaceship8);
+		spaceshipStore.store(spaceship9);
+		spaceshipStore.store(spaceship10);
+		spaceshipStore.store(spaceship11);
+		spaceshipStore.store(spaceship12);
+		spaceshipStore.store(spaceship13);
+		spaceshipStore.store(spaceship14);
+		spaceshipStore.store(spaceship15);
+		spaceshipStore.store(spaceship16);
+		spaceshipStore.store(spaceship17);
+		spaceshipStore.store(spaceship18);
+		spaceshipStore.store(spaceship19);
+		spaceshipStore.store(spaceship20);
+        spaceshipStore.display();
+        Spaceship newSpaceship = new Spaceship("Orion","Crewed",4,28000,"Liquid","Deep Space","NASA",45000,true,"USA");
+        spaceshipStore.update(spaceship18,newSpaceship);
+        System.out.println("After Update:");
+		spaceshipStore.display();
+	}
+}

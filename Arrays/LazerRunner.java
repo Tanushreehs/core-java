@@ -1,0 +1,50 @@
+class LaserRunner{
+	public static void main(String[] args){
+        LaserStore laserStore = new LaserStore();
+        Laser laser1 = new Laser("Diode",650,5,"Red","Pointer",true,"Plastic",500,"Philips","India");
+		Laser laser2 = new Laser("CO2",10600,40,"Infrared","Cutting",false,"Metal",5000,"Bosch","Germany");
+		Laser laser3 = new Laser("Fiber",1550,20,"Infrared","Engraving",false,"Steel",7000,"Hitachi","Japan");
+		Laser laser4 = new Laser("Diode",532,10,"Green","Medical",true,"Plastic",2000,"MedTech","USA");
+		Laser laser5 = new Laser("Solid-State",1064,50,"Infrared","Industrial",false,"Alloy",9000,"Siemens","Germany");
+		Laser laser6 = new Laser("Diode",450,8,"Blue","Display",true,"Plastic",1500,"Sony","Japan");
+		Laser laser7 = new Laser("Fiber",1550,25,"Infrared","Communication",false,"Steel",8000,"Cisco","USA");
+		Laser laser8 = new Laser("CO2",10600,60,"Infrared","Cutting",false,"Metal",10000,"LG","Korea");
+		Laser laser9 = new Laser("Diode",650,6,"Red","Pointer",true,"Plastic",600,"Panasonic","Japan");
+		Laser laser10 = new Laser("Solid-State",532,15,"Green","Medical",true,"Glass",3000,"GE","USA");
+        Laser laser11 = new Laser("Fiber",1550,30,"Infrared","Industrial",false,"Steel",8500,"Dell","USA");
+		Laser laser12 = new Laser("CO2",10600,70,"Infrared","Cutting",false,"Metal",11000,"HP","USA");
+		Laser laser13 = new Laser("Diode",405,5,"Violet","Storage",true,"Plastic",1200,"Samsung","Korea");
+		Laser laser14 = new Laser("Solid-State",1064,55,"Infrared","Industrial",false,"Alloy",9500,"Lenovo","China");
+		Laser laser15 = new Laser("Fiber",1550,35,"Infrared","Communication",false,"Steel",9000,"Asus","Taiwan");
+		Laser laser16 = new Laser("Diode",520,9,"Green","Display",true,"Plastic",1800,"Acer","Taiwan");
+		Laser laser17 = new Laser("CO2",10600,65,"Infrared","Cutting",false,"Metal",10500,"IBM","USA");
+		Laser laser18 = new Laser("Solid-State",532,18,"Green","Medical",true,"Glass",3200,"Intel","USA");
+		Laser laser19 = new Laser("Fiber",1550,28,"Infrared","Industrial",false,"Steel",8700,"Oracle","USA");
+		Laser laser20 = new Laser("Diode",650,7,"Red","Pointer",true,"Plastic",700,"Xiaomi","China");
+        laserStore.store(laser1);
+		laserStore.store(laser2);
+		laserStore.store(laser3);
+		laserStore.store(laser4);
+		laserStore.store(laser5);
+		laserStore.store(laser6);
+		laserStore.store(laser7);
+		laserStore.store(laser8);
+		laserStore.store(laser9);
+		laserStore.store(laser10);
+		laserStore.store(laser11);
+		laserStore.store(laser12);
+		laserStore.store(laser13);
+		laserStore.store(laser14);
+		laserStore.store(laser15);
+		laserStore.store(laser16);
+		laserStore.store(laser17);
+		laserStore.store(laser18);
+		laserStore.store(laser19);
+		laserStore.store(laser20);
+        laserStore.display();
+        Laser newLaser = new Laser("Quantum",700,100,"Ultra Violet","Research",false,"Crystal",15000,"NASA","USA");
+        laserStore.update(laser3,newLaser);
+        System.out.println("After Update:");
+		laserStore.display();
+	}
+}

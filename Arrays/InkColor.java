@@ -1,0 +1,3 @@
+enum InkColor {
+    PURPLE,YELLOW,BROWN,BLACK, BLUE, RED, GREEN,PINK
+}
